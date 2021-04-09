@@ -13,7 +13,7 @@
       crossorigin="anonymous"
     />
     <!-- Local CSS -->
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css?v=1" />
   </head>
   <body>
     <!-- Header with NavBar -->
@@ -24,8 +24,7 @@
             <img
               src="./images/PNGlogoColorLarge.png"
               alt=""
-              width="120"
-              height="96"
+              width="170"
             />
           </a>
         </div>
@@ -33,99 +32,110 @@
     </header>
 
     <main>
-        <div class="hero-img">
-            <h1>Blue Oak Systems</h1>
-        </div>
-        <div class="container p-4 bg-light mt-4">
-            <p>
-                Sign up to get your FREE credit rating – proudly brought to you by Blue
-                Oak Systems in conjunction with DirectAxis Pulse.
-              </p>
-              <p>
-                With this free and secure service, you will be able to keep up to date
-                with your financial status and receive useful tips on how to maintain or
-                improve your credit rating.
-              </p>
-              <p>
-                Please confirm/complete your details below and accept the terms and
-                conditions in order to proceed to the Pulse Registration page:
-              </p>
-              <form action="#" type="POST" id="applicationForm" class="test">
-        
-                <div class="row">
-                    <div class="col">
-                      <input
-                        type="text"
-                        class="form-control"
-                        placeholder="Name"
-                        aria-label="Name"
-                      />
-                    </div>
-                    <div class="col">
-                      <input
-                        type="text"
-                        class="form-control"
-                        placeholder="Surname"
-                        aria-label="Surname"
-                      />
-                    </div>
-                  </div>
-            
-                  <br>
-            
-                  <div class="row">
-                    <div class="col">
-                      <input
-                        type="text"
-                        class="form-control"
-                        placeholder="Cell Phone Number"
-                        aria-label="Cell Phone Number"
-                      />
-                    </div>
-                    <div class="col">
-                      <input
-                        type="email"
-                        class="form-control"
-                        placeholder="Email"
-                        aria-label="Email"
-                      />
-                    </div>
-                  </div>
-                  <br>
-                  
-                  <div class="row">
-                    <div class="col">
-                      <input
-                        type="text"
-                        class="form-control"
-                        placeholder="ID Number"
-                        aria-label="ID Number"
-                      />
-                    </div>
-                    <div class="col">
-                      <input
-                        type="password"
-                        class="form-control"
-                        placeholder="Password"
-                        aria-label="Password"
-                      />
-                    </div>
-                  </div>
-            
-                  <div class="col-12 pt-3 pb-3">
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" id="gridCheck">
-                      <label class="form-check-label" for="gridCheck">
-                        I agree
-                      </label>
-                    </div>
-                  </div>
-                  <div class="col-12">
-                    <button type="submit" class="btn btn-primary">Submit Application</button>
-                  </div>
-              </form>
+      <div class="hero-img">
+        <h1>FREE credit rating</h1>
+      </div>
+      <div class="container p-4 bg-light mt-4">
+        <p>
+            <strong>Sign up to get your FREE credit rating</strong>
+           – proudly brought to you by
+          Blue Oak Systems in conjunction with DirectAxis Pulse.
+        </p>
+        <p>
+          With this free and secure service, you will be able to keep up to date
+          with your financial status and receive useful tips on how to maintain
+          or improve your credit rating.
+        </p>
+        <p>
+          Please confirm/complete your details below and accept the terms and
+          conditions in order to proceed to the Pulse Registration page:
+        </p>
+        <form action="#" type="POST" id="applicationForm" class="test">
+          <div class="row">
+            <div class="col">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Name"
+                aria-label="Name"
+              />
+            </div>
+            <div class="col">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Surname"
+                aria-label="Surname"
+              />
+            </div>
+          </div>
 
-        </div>
+          <br />
+
+          <div class="row">
+            <div class="col">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Cell Phone Number"
+                aria-label="Cell Phone Number"
+              />
+            </div>
+            <div class="col">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Email"
+                aria-label="Email"
+              />
+            </div>
+          </div>
+          <br />
+
+          <div class="row">
+            <div class="col">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="ID Number"
+                aria-label="ID Number"
+              />
+            </div>
+            <div class="col">
+              <input
+                type="password"
+                class="form-control"
+                placeholder="Password"
+                aria-label="Password"
+              />
+            </div>
+          </div>
+
+          <div class="col-12 pt-3 pb-3">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck" />
+              <label class="form-check-label" for="gridCheck">
+                I agree that:
+              </label>
+            </div>
+            <div class="container p-4 bg-light mt-4">
+              <p>
+                DirectAxis may obtain my personal information from the credit
+                bureaus in order to provide financial fitness services to me
+                which includes the DirectAxis Pulse service. This access could
+                take place on an ongoing basis until I unsubscribe from the
+                service. DirectAxis is a business unit of FirstRand Bank and
+                therefore this consent applies to the FirstRand group. 
+              </p>
+            </div>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary">
+              Proceed
+            </button>
+          </div>
+        </form>
+      </div>
     </main>
 
     <footer></footer>

@@ -1,6 +1,8 @@
 
 
-
+.navbar-brand {
+    margin: 0 auto;
+}
 
 .hero-img {
     background: url(images/homePic.jpg) center center no-repeat;
@@ -8,6 +10,14 @@
     padding: 7em 2em;
     color: #FFF;
     text-align: center;
+}
+
+.hero-img h1 {
+    display: inline-block;
+    background: #707d8e4a;
+    padding: 0.5em 2em;
+    box-shadow: 0em 0em 0.5em 0em #000, 0em 0em 5.5em 0em #ffffff;
+    border-radius: 3em;
 }
 
 header .navbar .container,
